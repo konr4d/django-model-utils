@@ -1,5 +1,3 @@
-from __future__ import unicode_literals
-
 from django.core.exceptions import ImproperlyConfigured
 from django.db import models, transaction, router
 from django.db.models.signals import post_save, pre_save

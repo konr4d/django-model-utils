@@ -7,6 +7,12 @@ CHANGES
 - Remove hacks for previously supported Django versions. (Fixes GH-390)
 - Dropped support for Python 2.7. (Fixes GH-393)
 
+3.3.0.1 (2019.10.24)
+--------------------
+
+- Use official six module instead of deprecated Django six contrib package.
+- Initial Python 38 support.
+
 3.3.0 (2019.08.19)
 ------------------
 

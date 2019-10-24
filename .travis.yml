@@ -1,8 +1,9 @@
 sudo: True
-dist: xenial
+dist: bionic
 language: python
 cache: pip
 python:
+- 3.8
 - 3.7
 - 3.6
 install: pip install tox-travis codecov
@@ -21,4 +22,4 @@ deploy:
   on:
     tags: true
     repo: jazzband/django-model-utils
-    python: 3.6
+    python: 3.8

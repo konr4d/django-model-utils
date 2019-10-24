@@ -1,5 +1,8 @@
 # Dependencies for development of django-model-utils
 
+Django>=2.0
+six>=1.10
+
 tox
 sphinx
 twine
